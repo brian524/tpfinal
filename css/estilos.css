@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+* {
+	
+  margin: 0%;
+  padding: 1%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+	
+}
+
+
+img{
+display: block;
+max-width: 100%;	
+	
+	
+}
+
+body{
+margin: 0;	
+font-family: 'Open Sans', Sans-serif;	
+	
+}
+
+
+.h1{
+font-family : 'Yanone Kaffeesatz', Sans-serif;
+letter-spacing:1.5px;
+}
+
+
+.header{
+	height:90px
+	
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    min-height: 100px;
+   
+}
+
+
+.header.contenedor{
+display:flex;
+justify-content: space-between;	
+	}
+	
+
+.nav{
+position: absolute;
+top:60px;
+left:-100%;
+width:100%;
+transition: all 0.4s;
+}
+
+.menu{
+	list-style:none;
+	padding:0;
+	margin:0;
+	
+}
+
+.menu--link{
+display:block;
+padding:15px;
+background:#FBA919;
+text-decoration:none;
+color:#fff;
+	
+}
+
+.menu--link:hover, .select{
+	background:white;
+	color:#FBA919;
+	
+}
+
+
+.mostrar {
+left:0;	
+	
+	
+}
+
+.banner {
+margin-top: -60px;
+position: relative;
+z-index: -1000;
+margin-bottom: 30PX;
+
+}
+
+.banner.contenedor{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+	color: #fff;
+
+
+}
+
+.banner--txt{
+display: none;
+
+}
+
+.info--columna{
+	background:#FBA919 ;
+	color: #fff;
+	padding: 15PX;
+	margin-bottom:30PX ;
+
+
+
+}
+
+
+.section--titulo{
+	
+	text-align: center;
+	font-size: 40px;
+	color: #FBA919;
+
+
+}
+
+
+
+.banner--img{
+	width: 100%;
+}
+
+.footer{
+background: #333;
+color: #fff;
+padding: 10px;
+text-align: center;
+
+}
+
+.footer.social [class^="icon-"]{
+display: inline-block;
+color: #333;
+text-decoration: none;
+font-size: 30px;
+padding: 10px;
+background: white;
+border-radius: 100px;
+width: 100px;
+height: 50px;
+line-height: 40px;
+
+}
+
+
+
+header .menu {
+    width: 50%;
+	align-items: center;
+}
+header .menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+header .menu ul li {
+    margin: 0 5px;
+    width: 150px;
+}
+header .menu ul li a {
+    display: flex;
+    padding: 10px 20px;
+    background: orange;
+    border-radius: 5px;
+}
+header .menu ul li a:hover {
+    background: orangered;
+    color: white;
+}
+
+
+
+
+.navbar-header {
+    max-width:1000px; 
+    margin-top: -10px;
+}
+
+
